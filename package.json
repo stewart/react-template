@@ -2,6 +2,7 @@
   "name": "playground",
   "version": "0.1.0",
   "description": "",
+
   "private": true,
 
   "devDependencies": {
@@ -14,6 +15,13 @@
     "envify": "3.2.0",
 
     "react": "0.12.2",
-    "react-router": "0.12.2"
+    "react-router": "0.12.2",
+
+    "sinon-chai": "2.7.0",
+    "chai": "2.1.0",
+    "mocha": "2.1.0",
+    "sinon": "1.12.2",
+    "jsdom": "3.1.2",
+    "babel": "4.5.5"
   }
 }

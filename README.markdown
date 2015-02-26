@@ -1,6 +1,7 @@
 # react-template
 
 A simple(-ish) playground/template for client-side-only React apps, using Babel + Browserify for JS, and Sass for CSS.
+Also uses Mocha + JSDOM for a test harness
 
 ## Dependencies
 
@@ -25,6 +26,7 @@ Command          | Result
 `make all`       | builds both
 `make clean`     | cleans build targets
 `make minify`    | builds minified CSS / JS
+`make test`      | runs tests with Mocha
 `make watch-js`  | watches + builds JS
 `make watch-css` | watches + builds CSS*
 
