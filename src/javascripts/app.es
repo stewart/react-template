@@ -4,7 +4,7 @@ import {RouteHandler} from "react-router";
 import Navigation from "./components/navigation.es"
 
 export default React.createClass({
-  render: function() {
+  render() {
     return (
       <div>
         <Navigation />
