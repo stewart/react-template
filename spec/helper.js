@@ -34,7 +34,7 @@ function createDOM() {
   global.document = jsdom.jsdom("<!doctype html><html><body></body></html>");
   global.window = document.parentWindow;
   global.navigator = global.window.navigator = { userAgent: "JSDOM" };
-};
+}
 
 createDOM();
 global.resetDOM = createDOM;
