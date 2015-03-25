@@ -7,21 +7,21 @@
 
   "devDependencies": {
     "browserify": "9.0.3",
-    "uglify-js": "2.4.16",
-    "watchify": "2.4.0",
-    "jsxhint": "0.12.1",
+    "uglify-js": "2.4.17",
+    "watchify": "2.6.0",
+    "jsxhint": "0.13.2",
 
-    "babelify": "5.0.3",
-    "envify": "3.2.0",
+    "babelify": "5.0.4",
+    "envify": "3.4.0",
 
-    "react": "0.12.2",
-    "react-router": "0.12.2",
+    "react": "0.13.1",
+    "react-router": "0.13.2",
 
     "sinon-chai": "2.7.0",
-    "chai": "2.1.0",
-    "mocha": "2.1.0",
-    "sinon": "1.12.2",
+    "chai": "2.1.2",
+    "mocha": "2.2.1",
+    "sinon": "1.14.1",
     "jsdom": "3.1.2",
-    "babel": "4.5.5"
+    "babel": "4.7.16"
   }
 }
