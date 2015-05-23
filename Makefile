@@ -45,7 +45,7 @@ watch-css:
 	$(SASS_WATCH_CMD)
 
 lint:
-	@$(BIN)jsxhint -e ".es" ./src/javascripts/**/* $(TEST_FILES)
+	@$(BIN)eslint ./src/javascripts/**/* $(TEST_FILES)
 
 all: clean js css
 

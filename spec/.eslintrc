@@ -1,0 +1,6 @@
+globals:
+  source: true
+  describe: true
+  it: true
+  TestUtils: true
+  expect: true

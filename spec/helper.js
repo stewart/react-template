@@ -2,11 +2,11 @@
 
 process.env.NODE_ENV = "test";
 
-var path = require("path");
+const path = require("path");
 
-var chai = require("chai"),
-    sinon = require("sinon"),
-    sinonChai = require("sinon-chai");
+const chai = require("chai"),
+      sinon = require("sinon"),
+      sinonChai = require("sinon-chai");
 
 chai.use(sinonChai);
 
@@ -28,7 +28,7 @@ global.source = function(module) {
 // add Babel's 'require' overload
 require("babel/register");
 
-var jsdom = require("jsdom");
+const jsdom = require("jsdom");
 
 function createDOM() {
   global.document = jsdom.jsdom("<!doctype html><html><body></body></html>");
@@ -40,6 +40,6 @@ createDOM();
 global.resetDOM = createDOM;
 
 // add React + TestUtils to global namespace
-var React = require("react/addons");
+const React = require("react/addons");
 global.React = React;
 global.TestUtils = React.addons.TestUtils;
